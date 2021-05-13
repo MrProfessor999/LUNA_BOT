@@ -17,7 +17,7 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-START_IMG = "https://telegra.ph/file/d9cdcfa8eeac6a976b8e0.jpg"
+START_IMG = "https://telegra.ph/file/da3cc3f6c857ef60aab08.jpg"
 
 
 
