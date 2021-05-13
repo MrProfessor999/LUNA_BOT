@@ -151,14 +151,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            first_name = update.effective_user.first_name
-            update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
+            update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/KeralaBots"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/KochuUpdates")],
-                     [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/stealthtechnogaming?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
+                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEM_BETA"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMBETA")],
+                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k")]]))
 
     else:
         update.effective_message.reply_text("YES I AM ALIVE🤔...")
@@ -256,7 +254,7 @@ def get_help(bot: Bot, update: Update):
                                                 [[InlineKeyboardButton(text="Help",
                                                                        url="t.me/{}?start=help".format(
                                                                            bot.username))]]))
-        return
+        
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
