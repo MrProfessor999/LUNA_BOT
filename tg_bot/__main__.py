@@ -25,26 +25,27 @@ START_IMG = "https://telegra.ph/file/d9cdcfa8eeac6a976b8e0.jpg"
 
 PM_START_TEXT = """
 
-ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+Hello👋 {}, my name is {}! I am maintained by [THIS LEGEND](tg://user?id={}) I am a Pro admin bot. 
+As usual I am now with less updates.But soon new feautures will come soon. My new updates will be updated on my updates channel and if you have any doubts about me join my support group and ask their about my queries you have.. 
 
-എന്നെ നിർമ്മിച്ചിരിക്കുന്നത് python3 യിൽ python-telegram-bot ലൈബ്രറി ഉപയോഗിച്ചാണ്. ഞാൻ പൂർണ്ണമായിട്ടും ഓപ്പൺസോഴ്സ്ഡ് ആണ്. എന്റെ കോഡ് നിങ്ങൾക്ക് [ഇവിടെ](https://github.com/jithumon/tgbot) കാണുവാൻ സാധിക്കും.
 
-എന്നെപ്പോലെ ഒരു അഡ്മിൻ ബോട്ടിനെ ഉണ്ടാക്കുവാൻ താഴെ കൊടുത്തിരിക്കുന്ന വീഡിയോ കാണുക.
 
-എന്റെ അപ്ഡേറ്റുകളെക്കുറിച്ചും പ്രവർത്തനത്തെപറ്റിയും അറിയുവാൻ അപ്ഡേറ്റ് ചാനൽ സബ്സ്ക്രൈബ് ചെയ്യുക.
 
-കൂടെ താഴെ കൊടുത്തിരിക്കുന്ന ടെക് ഗെയിമിംഗ് യൂട്യൂബ് ചാനൽ സബ്സ്ക്രൈബ് ചെയ്യാനും മറക്കേണ്ട.
 
-ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ /help അമർത്തുക.
+
+
+
+
+
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
+Hello there! I am *{}*.
+I am a Pro group manager bot with a fun extras! Take a look at the following for an idea of some of some of my feautures \
+Master head bot you can see here @Mothirajinn_bot
 *Main* commands available:
- - /start: start the bot
+ - /start: to start or active me. 
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
  - /donate: information about how to donate!
