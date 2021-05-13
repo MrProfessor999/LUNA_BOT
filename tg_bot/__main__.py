@@ -17,6 +17,12 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
+START_IMG = "https://telegra.ph/file/d9cdcfa8eeac6a976b8e0.jpg"
+
+
+
+
+
 PM_START_TEXT = """
 
 ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
