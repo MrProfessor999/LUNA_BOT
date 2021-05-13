@@ -56,11 +56,16 @@ Master head bot you can see here @Mothirajinn_bot
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Hey you glad to think to donate!
+
+Kindly my Devoleper had tried a lot to make me. As a well mind for donating me \
+
+Thanks for your mind to donate as per click here first [My creator](https://t.me/JINN_OF_TG) \
+
+Don't think that he is a rich he is a poor man from a poor family.. 
+
+Thanks for using me and thanks for your good for donation.
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
