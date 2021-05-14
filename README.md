@@ -49,6 +49,10 @@ THIS BOT IS BOT BASED ON [KOCHUBOT](https://github.com/jithumon/tgbot). AND ALL 
 
 [@Mothirajinn_bot](https://t.me/Mothirajinn_bot) 
 
+### BETA BOT CAN BE FOU D HERE
+[@NAZRIYANAZEEM_BETA_BOT](https://t.me/NAZRIYANAZEEM_BETA_BOT) 
+
+
 ### MAKE A BOT LIKE ME BY WATCHING A VIDEO ALSO SUBSCRIBE CHANNEL NEW BOTS AND UPDATES COMIN SOON.. 
 
 [WATCH VIDEO AND MAKE A BOT](https://youtu.be/q92-LTGwn9k) 
