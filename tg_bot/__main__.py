@@ -60,10 +60,10 @@ DONATE_STRING = """Hey you glad to think to donate!
 
 Kindly my Devoleper had tried a lot to make me. As a well mind for donating me \
 
-Thanks for your mind to donate as per click here first [My creator](https://t.me/JINN_OF_TG) \
+Thanks for your mind to donate as per click here first [My creator](http://t.me/SonOfLars) \
 
 Don't think that he is a rich he is a poor man from a poor family.. 
-
+[MONZO](http://monzo.me/PAULNIONVESTERGAARDLARSEN) OR [PAYPAL](http://paypal.me/PAULSONOFLARS) 
 Thanks for using me and thanks for your good for donation.
 """
 
