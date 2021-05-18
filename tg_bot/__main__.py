@@ -43,7 +43,7 @@ As usual I am now with less updates.But soon new feautures will come soon. My ne
 HELP_STRINGS = """
 Hello there! I am *{}*.
 I am a Pro group manager bot with a fun extras! Take a look at the following for an idea of some of some of my feautures \
-Master head bot you can see here @Mothirajinn_bot. 
+Master head bot. 
 *Main* commands available:
  - /start: to start or active me. 
  - /help: PM's you this message.
