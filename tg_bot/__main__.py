@@ -164,7 +164,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
                      [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEM_BETA"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMBETA")],
-                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/JINN-OF-TG/TG-BOT"), InlineKeyboardButton(text="❣️COMMANDS❣️", url="https://t.me/{}?start=help".format(bot.username))"),
+                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://www.youtube.com/stealthtechnogaming?sub_confirmation=1"), InlineKeyboardButton(text="❣️COMMANDS❣️", url="https://t.me/{}?start=help".format(bot.username)) ]
                      [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k")]]))
 
     else:
