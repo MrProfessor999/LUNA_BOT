@@ -165,8 +165,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
                      [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEM_BETA"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMBETA")],
                      [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/JINN-OF-TG/TG-BOT")], 
-                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k"), 
-                      #[InlineKeyboardButton(text="❣️ CLOSE", callback_data="close")]]))
+                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k")]]))
+                     
 
     else:
         update.effective_message.reply_text("YES I AM ALIVE🤔...")
