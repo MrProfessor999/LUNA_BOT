@@ -156,9 +156,8 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
-                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NN_NAZRIYANAZEEM_BETA"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NN_NAZRIYANAZEEMBETA")],
-                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/JINN-OF-TG/TG-BOT")], 
-                     [InlineKeyboardButton(text="❣️DEPLOY A BOT LIKE ME CLICK HERE❣️", url="https://youtu.be/q92-LTGwn9k")]]))
+                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEMUPDATES"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMSUPPORT")],
+                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/MR-JINN-TG/TG-BOT")]]))
                      
 
     else:
