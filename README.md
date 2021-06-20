@@ -17,9 +17,9 @@ You can make a group manager bot like me.. By watching the video..
 
 ### JOIN OUR SUPPORT CHAT AND CHANNEL FOR MORE KNOWING ABOUT ME..   
 
-🔰CHANNEL :- [CLICK HERE](https://t.me/NN_NAZRIYANAZEEM_BETA) 
+🔰CHANNEL :- [CLICK HERE](https://t.me/NAZRIYANAZEEMUPDATES) 
 
-🔰GROUP :- [CLICK HERE](https://t.me/NN_NAZRIYANAZEEMBETA) 
+🔰GROUP :- [CLICK HERE](https://t.me/NAZRIYANAZEEMSUPPORT) 
 
 
 
@@ -42,19 +42,4 @@ THIS BOT IS BOT BASED ON [KOCHUBOT](https://github.com/jithumon/tgbot). AND ALL 
 🔰JITHUMON 
 
 🔰PAUL LAURSEN
-
-🔰ASHIK MUHAMMED 
-
-### BOT CAN BE FOUND ON TELEGRAM AS
-
-[@Mothirajinn_bot](https://t.me/Mothirajinn_bot) 
-
-### BETA BOT CAN BE FOU D HERE
-[@NAZRIYANAZEEM_BETA_BOT](https://t.me/NAZRIYANAZEEM_BETA_BOT) 
-
-
-### MAKE A BOT LIKE ME BY WATCHING A VIDEO ALSO SUBSCRIBE CHANNEL NEW BOTS AND UPDATES COMIN SOON.. 
-
-[WATCH VIDEO AND MAKE A BOT](https://youtu.be/q92-LTGwn9k) 
-
 
