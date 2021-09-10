@@ -56,7 +56,7 @@ Master head bot.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """HEY GLAD TO THINK TO DONATE CONTACT [MY CREATOR](https://t.me/JINN_OF_TGS) 
+DONATE_STRING = """HEY GLAD TO THINK TO DONATE CONTACT [MY CREATOR](https://t.me/MR_JINN_OF_TG) 
 
 """
 
@@ -156,7 +156,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
-                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEMUPDATES"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMSUPPORT")],
+                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYAUPDATES"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYASUPPORT")],
                      [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/MR-JINN-OF-TG/TG-BOT")]]))
                      
 
