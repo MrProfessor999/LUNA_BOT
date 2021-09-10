@@ -51,30 +51,19 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
                                     callback_data="{}_module({},{})".format(prefix, chat, x.__mod_name__.lower())) for x
              in module_dict.values()])
 
+    pairs = list(zip(modules[::2], modules[1::2]))
 
-
-    pairs = [modules[i * 2 : (i + 1) * 2] for i in range((len(modules) + 2 - 1) // 2)]
-    round_num = len(modules) / 2
-    calc = len(modules) - round(round_num)
-    if calc == 1:
-        pairs.append((modules[-1],))
-    elif calc == 2:
+    if len(modules) % 2 == 1:
         pairs.append((modules[-1],))
 
-
-#    pairs = list(zip(modules[::2], modules[1::2]))
-
-#    if len(modules) % 2 == 1:
-#        pairs.append((modules[-1],))
-
-#    max_num_pages = ceil(len(pairs) / 7)
-#   modulo_page = page_n % max_num_pages
+    max_num_pages = ceil(len(pairs) / 7)
+    modulo_page = page_n % max_num_pages
 
     # can only have a certain amount of buttons side by side
-#    if len(pairs) > 7:
-#        pairs = pairs[modulo_page * 7:7 * (modulo_page + 1)] + [
-#            (EqInlineKeyboardButton("<", callback_data="{}_prev({})".format(prefix, modulo_page)),
-#             EqInlineKeyboardButton(">", callback_data="{}_next({})".format(prefix, modulo_page)))]
+    if len(pairs) > 7:
+        pairs = pairs[modulo_page * 7:7 * (modulo_page + 1)] + [
+            (EqInlineKeyboardButton("<", callback_data="{}_prev({})".format(prefix, modulo_page)),
+             EqInlineKeyboardButton(">", callback_data="{}_next({})".format(prefix, modulo_page)))]
 
     return pairs
 
@@ -97,23 +86,11 @@ def send_to_list(bot: Bot, send_to: list, message: str, markdown=False, html=Fal
 def build_keyboard(buttons):
     keyb = []
     for btn in buttons:
-        mybelru = btn.url
-        ik = None
-        cond_one = mybelru.startswith(("http", "tg://"))
-        # to fix #33801 inconsistencies
-        cond_two = (
-            "t.me/" in mybelru or
-            "telegram.me/" in mybelru
-        )
-        if cond_one or cond_two:
-            ik = InlineKeyboardButton(btn.name, url=mybelru)
+        if btn.same_line and keyb:
+            keyb[-1].append(InlineKeyboardButton(btn.name, url=btn.url))
         else:
-            ik = InlineKeyboardButton(btn.name, callback_data=f"rsct_{btn.id}_33801")
-        if ik:
-            if btn.same_line and keyb:
-                keyb[-1].append(ik)
-            else:
-                keyb.append([ik])
+            keyb.append([InlineKeyboardButton(btn.name, url=btn.url)])
+
     return keyb
 
 
