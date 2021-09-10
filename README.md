@@ -17,9 +17,9 @@ You can make a group manager bot like me.. By watching the video..
 
 ### JOIN OUR SUPPORT CHAT AND CHANNEL FOR MORE KNOWING ABOUT ME..   
 
-🔰CHANNEL :- [CLICK HERE](https://t.me/NAZRIYANAZEEMUPDATES) 
+🔰CHANNEL :- [CLICK HERE](https://t.me/NAZRIYAUPDATES) 
 
-🔰GROUP :- [CLICK HERE](https://t.me/NAZRIYANAZEEMSUPPORT) 
+🔰GROUP :- [CLICK HERE](https://t.me/NAZRIYASUPPORT) 
 
 
 
