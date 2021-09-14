@@ -156,6 +156,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
+                     [InlineKeyboardButton(text="HELP🛠️", callback_data="help_back")], 
                      [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYAUPDATES"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYASUPPORT")],
                      [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/MR-JINN-OF-TG/TG-BOT")]]))
                      
